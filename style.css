@@ -7,17 +7,14 @@ body {
   color: #272822;
 }
 
-div {
-  padding: 10 10 10 10;
-  background-color: FFFAF0;
+.card {
+  padding: 10px;
+  background-color: #FFFAF0;
   border-radius: 10px;
   box-shadow:2px 2px 3px #ae7878;
-  background: color#AE7667;
   text-align: center;
   width: 800px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 #lewagon:hover{
@@ -28,12 +25,16 @@ div {
   text-decoration: underline;
 }
 
+.hover-pic {
+  border-radius: 10px;
+}
+
 .hover-pic:hover {
   box-shadow:2px 2px 3px #ae7878;
 }
 
 #profile-pic {
-  border-radius: 10px;
+  border-radius: 50%;
   box-shadow:2px 2px 3px #ae7878;
   width: 500px;
   margin: 20;
@@ -47,6 +48,10 @@ div {
 .inline-list li{
   display: inline-block;
   padding: 0 10px;
+}
+
+.padded-p {
+  padding-left: 10px;
 }
 
 
