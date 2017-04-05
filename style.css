@@ -2,6 +2,7 @@ body {
   background-color: #F6F6F6;
   background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/giphy.gif");
   background-size: cover;
+  background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   font-size: 12;
   color: #272822;
@@ -13,7 +14,7 @@ body {
   border-radius: 10px;
   box-shadow:2px 2px 3px #ae7878;
   text-align: center;
-  width: 800px;
+  width: 650px;
   margin: 20px auto;
 }
 
@@ -34,9 +35,9 @@ body {
 }
 
 #profile-pic {
-  border-radius: 50%;
+  border-radius: 100%;
   box-shadow:2px 2px 3px #ae7878;
-  width: 500px;
+  width: 400px;
   margin: 20;
 }
 
